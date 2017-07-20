@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+<form action="/ReadForm">
+  Imię:<br>
+  <input type="text" name="firstname">
+  <br><br>
+  Nazwisko:<br>
+  <input type="text" name="lastname">
+  <br><br>
+
+
+  Zapis na newsletter:
+  <input type="checkbox" name="newsletter">
+  <br><br>
+  Znane języki programowania:<br><br>
+  Java <input type="checkbox" name="java">
+  C++ <input type="checkbox" name="cplusplus">
+  C# <input type="checkbox" name="csharp">
+  Python <input type="checkbox" name="python">
+  <br><br>
+
+  Ulubiona pora roku:<br><br>
+  Wiosna <input type="radio" name="pora">
+  Lato <input type="radio" name="pora">
+  Jesień <input type="radio" name="pora">
+  Zima <input type="radio" name="pora">
+  <br><br>
+
+
+  Co Arek robi dobrze:<br>
+  <textarea name="arek" cols="30" rows="5">Zastanów się dobrze...</textarea>
+  <br><br>
+
+Nazwa mojego banku:
+<select name = "bank">
+  <option value="Panna cotta">mbank</option>
+  <option value="Tiramisu">BZWBK</option>
+  <option value="Creme brulle">PKO BP</option>
+</select>
+<br><br>
+
+
+Technologie do nauki w przyszłości:<br><br>
+<select multiple name = "technologies">
+  <option>JavaScript</option>
+  <option>Python</option>
+  <option>Maven</option>
+  <option>Spring</option>
+  <option>Hibernate</option>
+</select>
+<br><br>
+
+<br>
+  <input type="submit" value="Wyślij formularz">
+</form>
+
+
+</body>
+</html>
